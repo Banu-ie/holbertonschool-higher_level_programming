@@ -5,6 +5,6 @@ def uppercase(str):
         # If character is lowercase a-z, convert to uppercase
         if 'a' <= c <= 'z':
             print("{}".format(chr(ord(c) - 32)), end="")
-        esle:
+        else:
             print("{}".format(c), end="")
     print()
