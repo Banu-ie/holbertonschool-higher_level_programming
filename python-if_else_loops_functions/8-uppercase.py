@@ -6,5 +6,5 @@ def uppercase(str):
         if 'a' <= c <= 'z':
             print("{}".format(chr(ord(c) - 32)), end="")
         esle:
-            print("{}".format(chr(c)), end="")
+            print("{}".format(c), end="")
     print()
