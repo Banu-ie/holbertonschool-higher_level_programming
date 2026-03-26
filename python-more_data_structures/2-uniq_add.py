@@ -4,6 +4,7 @@ def uniq_add(my_list=[]):
     unique_numbers = set(my_list)
     return sum(unique_numbers)
 
+
 '''
     def uniq_add(my_list=[]):
         total = 0
@@ -13,6 +14,6 @@ def uniq_add(my_list=[]):
             if i is not in new_list:
                 total += i
                 new_list.append(i)
-            
+
             return total
 '''
