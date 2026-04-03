@@ -51,7 +51,7 @@ class Rectangle:
         """Prints rectangle with #"""
         if self.__width == 0 or self.__height == 0:
             return ""
-   
+
         rows = []
         for _ in range(self.__height):
             rows.append("#" * self.__width)
