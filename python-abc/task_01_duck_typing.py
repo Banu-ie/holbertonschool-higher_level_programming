@@ -24,14 +24,14 @@ class Circle(Shape):
 
     def __init__(self, radius):
         """Initialize circle with radius."""
-        self.radius = radius
+        self.radius = abs(radius)
 
     def area(self):
         """Return area of circle."""
         return math.pi * self.radius ** 2
 
     def perimeter(self):
-        """Return perimeter (circumference) of circle."""
+        """Return perimeter of circle."""
         return 2 * math.pi * self.radius
 
 
