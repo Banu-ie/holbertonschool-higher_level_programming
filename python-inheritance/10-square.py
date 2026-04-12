@@ -18,3 +18,4 @@ class Square(Rectangle):
         self.__size = size
 
         super().__init__(size, size)
+    
